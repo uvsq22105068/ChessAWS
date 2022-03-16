@@ -12,7 +12,7 @@ Afin de répartir plus efficacement le travail cette première semaine, nous avo
   <li><strong>Benjamin Estevan</strong> dans le rôle du <strong>Responsable de Groupe</strong> en charge d'écrire ce rapport, de présenter à l'oral le pitch du projet et de mettre en place un plan de travail pour la semaine.</li>
 </ul>
 
-Chaque pièce peut se déplacer au choix du joueur sur l'une des cases marquées d'une croix. Hormis le pion, elles capturent une pièce adverse qui se trouve sur leur trajectoire, sans pouvoir aller au-delà. À l'exception de la prise en passant, la pièce qui capture prend la place de la pièce capturée, cette dernière étant définitivement retirée de l'échiquier.
+Chaque pièce peut se déplacer au choix du joueur sur l'une des cases adaptées. Hormis le pion, elles capturent une pièce adverse qui se trouve sur leur trajectoire, sans pouvoir aller au-delà. La pièce qui capture prend la place de la pièce capturée, cette dernière étant définitivement retirée de l'échiquier.
 <ul>
   <li>Le <strong>fou</strong>, la <strong>tour</strong> et la <strong>dame</strong> sont des pièces à longue portée: elles peuvent se déplacer le long de lignes. Chaque camp possède, deux fous (ils se déplacent toujours sur les cases d'une même couleur, en diagonale), deux tours (elles ne se déplacent qu'à la verticale ou à l'horizontale) et une dame (elle peut se déplacer comme un fou et comme une tour).</li>
   <li>Le <strong>roi</strong> se déplace d'une seule case à la fois.</li>
@@ -25,3 +25,5 @@ Ainsi l'implémentation des mouvements des différentes pièces sur le plateau n
 Nous avons l'intention de rajouter à ce site de jeu d'échecs un dispositif de classement **ELO**, ce classement attribue au joueur, suivant ses performances passées, un nombre de points tel que deux joueurs supposés de même force aient le même nombre de points. Plus le joueur est performant et plus son nombre de points Elo est élevé. Si un joueur réalise une performance supérieure à son niveau estimé, il gagne des points Elo. Réciproquement, il en perd s'il réalise une contre-performance. (`Source`: [Wikipedia](https://fr.wikipedia.org/wiki/Classement_Elo))
 
 De plus, Ouail Kais a aussi trouvé deux sites de jeu d'échecs bien réalisés, [lichess.org](https://lichess.org/) et [Chess.com](https://www.chess.com/fr/play/computer), dont nous nous pourrons nous inspirer pour le développement du notre
+
+Le groupe des codeurs s'est chargé d'écrire les fichiers **HTML** et **CSS** pour un premier rendu de l'application, ils ont aussi rajouté une page pour que les nouveaux visiteurs puissent s'inscrire et que les anciens puissent se reconnecter. Ce qui nous sera utile à implémenter le dispositif de classement.
