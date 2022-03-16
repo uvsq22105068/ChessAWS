@@ -14,22 +14,10 @@ Afin de répartir plus efficacement le travail cette première semaine, nous avo
 
 Chaque pièce peut se déplacer au choix du joueur sur l'une des cases marquées d'une croix. Hormis le pion, elles capturent une pièce adverse qui se trouve sur leur trajectoire, sans pouvoir aller au-delà. À l'exception de la prise en passant, la pièce qui capture prend la place de la pièce capturée, cette dernière étant définitivement retirée de l'échiquier.
 <ul>
-  <li>Le <strong>fou</strong>, la <strong>tour</strong> et la <strong>dame</strong> sont des pièces à longue portée: elles peuvent se déplacer le long de lignes. Chaque camp possède deux fous : ils se déplacent toujours sur les cases d'une même couleur, en diagonale ; chaque camp possède donc un fou de cases blanches, et un fou de cases noires.</li>
-
-  ![Image](fou.png) 
-  ![Imange](reine.png) 
-  ![Imange](tour.png)
-
+  <li>Le <strong>fou</strong>, la <strong>tour</strong> et la <strong>dame</strong> sont des pièces à longue portée: elles peuvent se déplacer le long de lignes. Chaque camp possède, deux fous (ils se déplacent toujours sur les cases d'une même couleur, en diagonale), deux tours (elles ne se déplacent qu'à la verticale ou à l'horizontale) et une dame (elle peut se déplacer comme un fou et comme une tour).</li>
   <li>Le <strong>roi</strong> se déplace d'une seule case à la fois.</li>
   <li>Le <strong>cavalier</strong> ne peut être intercepté par aucune des pièces autour de lui, il « saute » jusqu'à sa case d'arrivée.</li>
-
-  ![Image](roi.png)
-  ![Image](cavalier.png)
-
-  <li>Le <strong>pion</strong> peut se déplacer sur les cases marquées d'une croix (sans pouvoir y capturer une pièce adverse), et peut capturer sur les cases marquées d'un rond (sans pouvoir s'y déplacer si elles sont vides). Chacun des pions peut se déplacer de deux cases à la fois lors de son tout premier déplacement.</li>
-
-  ![Image](blanc.png)
-  ![Image](noir.png)
+  <li>Le <strong>pion</strong> peut se déplacer d'une case vers le joueur adverse (sans pouvoir y capturer une pièce adverse), et peut capturer une pièce adverse sur une des cases adjacentes en diagonale (sans pouvoir s'y déplacer si elles sont vides). Chacun des pions peut se déplacer de deux cases à la fois lors de son tout premier déplacement.</li>
 </ul>
 
 Ainsi l'implémentation des mouvements des différentes pièces sur le plateau nécessitera de faire attention à bien respecter les règles concernant les déplacements autorisés de chaque pièce.
