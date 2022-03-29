@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background-color: #24252A;
+    font-family: 'Montserrat', sans-serif;
+}
+li, a, button,p {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #edf0f1;
+}
+.logo {
+    margin-right:auto;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+.menu {
+    list-style: none;
+}
+.menu li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+.menu li a {
+    transition: all 0.3s ease 0s;
+    text-align: center;
+
+}
+.menu li a:hover {
+    color: #0088f7;
+}
+button {
+    padding: 9px 25px;
+    margin-left: 30px;
+    background-color: rgba(0,136,247,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,247,0.6);
+}
+table{
+    margin-left:auto; 
+    margin-right:auto;
+}
+th{
+    color: white;
+}
+.chess-board { border-spacing: 0; border-collapse: collapse; }
+.chess-board th { padding: .5em; }
+.chess-board th + th { border-bottom: 1px solid #000; }
+.chess-board th:first-child,
+.chess-board td:last-child { border-right: 1px solid #000; }
+.chess-board tr:last-child td { border-bottom: 1px solid; }
+.chess-board th:empty { border: none; }
+.chess-board td { width: 1.5em; height: 1.5em; text-align: center; font-size: 32px; line-height: 0;}
+.chess-board .light { background: #eee; }
+.chess-board .dark { background: #aaa; }
+
+
