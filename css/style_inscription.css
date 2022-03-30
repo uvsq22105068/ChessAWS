@@ -15,18 +15,9 @@ input[type="text"]{
     background-color: rgba(0,136,247,1);
     border: none;
     border-radius: 50px;
-    
+    transition: all 0.3s ease 0s;
 }
 
-input[type="submit"] {
-    padding: 9px 1%;
-    margin-left: 35%;
-    text-align: center;
-    color: #edf0f1;
-    background-color: rgba(0,136,247,1);
-    border: none;
-    border-radius: 50px;
-}
 input:hover{
     background-color: rgba(0,136,247,0.6);
 }
@@ -61,7 +52,12 @@ header {
     transition: all 0.3s ease 0s;
     text-align: center;
 }
-.menu li a:hover {
+
+.logo a {
+  transition: all 0.3s ease 0s;
+}
+
+.menu li a:hover, .logo a:hover {
     color: #0088f7;
 }
 
@@ -76,4 +72,31 @@ button {
 }
 button:hover{
     background-color: rgba(0,136,247,0.6);
+}
+
+body .footer #signup-footer {
+  margin-left: 47.25%;
+  text-align: center;
+  color: #edf0f1;
+  transition: all 0.3s ease 0s;
+  border: none;
+}
+
+body .footer #signup-footer:hover {
+  color: #0088f7;
+}
+
+body .footer #login-footer {
+  padding: 7px 1%;
+  margin-left: 47.75%;
+  text-align: center;
+  color: #edf0f1;
+  background-color: rgba(0,136,247,1);
+  border: none;
+  transition: all 0.3s ease 0s;
+  border-radius: 50px;
+}
+
+body .footer #login-footer:hover {
+  background-color: rgba(0,136,247,0.6);
 }

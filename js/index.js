@@ -474,8 +474,8 @@ function deplacement1et2(x, y) {
     }
   };
 
-  for (let i = 0; i < deplacement1.length; i++) {           //Rajoute x et y au début de chaque élément de deplacement1
-    deplacement1[i].unshift(x, y)                         //ici, deplacement1 renvoi tous les déplacements possibles en pratique sans compter l'échec
+  for (let i = 0; i < deplacement1.length; i++) { //Rajoute x et y au début de chaque élément de deplacement1
+    deplacement1[i].unshift(x, y) //ici, deplacement1 renvoi tous les déplacements possibles en pratique sans compter l'échec
   }
 
   return deplacement1

@@ -3,28 +3,44 @@
 
     <head>
         <meta charset="utf-8">
+
+        <!--CSS-->
         <link rel="stylesheet" href="css/style_inscription.css">
+
+        <!--JS-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script defer="" src="js/inscription.js"></script>
         <title>JEU D'ECHEC EN LIGNE</title>
         <!-- Ceci est un commentaire-->
     </head>
     <body>
             <header> 
-                <p class="logo"><a href="inscription.html">Inscription | Connexion </a></p>
+                <p class="logo"><a href="inscription.html"> Connexion </a></p>
                 <nav>
                     <ul class="menu">
                         <li><a href="#"> Classement </a></li>
                         <li><a href="#"> A propos </a></li>
                     </ul>
                 </nav>
-                <a class="cta" href="#"><button>Jouer</button></a>
+                <a class="cta" href="index.html"><button>Jouer</button></a>
             </header>
             <div class="form">
-                <label for="pseudo"> Votre Pseudo : </label>
-                <input type="text" name="pseudo" id="pseudo"><br><br>
-                <label for="mdp"> Votre Mot De Passe : </label>
-                <input type="text" name="mdp" id="mdp"><br><br>
-                <input type="submit">
+                <div class="pseudo">
+                  <label for="pseudo"> Votre Pseudo : </label>
+                  <input type="text" id="pseudo">
+                </div>
+                <br>
+                <div class="mdp">
+                  <label for="mdp"> Votre Mot De Passe : </label>
+                  <input type="text" id="mdp">
+                </div>
+                <br><br>
             </div>
-
+            <div class="footer">
+              <a href="#" id="login-footer" onclick="logIn()">Envoyer</a>
+              <br><br>
+              <a href="#" id="signup-footer" onclick="signUpPage()">Inscrivez-vous</a>
+            </div>
     </body>
 </html>
