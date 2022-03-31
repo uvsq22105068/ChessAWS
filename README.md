@@ -28,13 +28,16 @@ De plus, Ouail Kais a aussi trouvé deux sites de jeu d'échecs bien réalisés,
 
 Le groupe des codeurs s'est chargé d'écrire les fichiers **HTML** et **CSS** pour un premier rendu de l'application. On y retrouve un certains nombre de bouttons qui pourront servir en autres à consulter les règles et le classement et a commencer une nouvelle partie. Ils ont aussi rajouté une page pour que les nouveaux visiteurs puissent s'inscrire et que les anciens puissent se reconnecter. Ce qui nous sera utile à implémenter le dispositif de classement et attribuer un score à chaque visiteur connecté.
 
-Semaine 2 :
+Semaine 2
+----------
 
 Les rôles de cette semaine on été distribué ainsi:
 <ul>
   <li><strong>Théo BRUANT </strong> dans le rôle du <strong>Chercheur</strong> pour se documenter sur le fonctionnement du système de classement <strong>ELO </strong>.</li>
   <li><strong> Benjamin Estevan </strong> et <strong> Ouail Kais AKROUF </strong> dans les rôles des <strong>Codeurs</strong> pour le développement des déplacements des pièces ainsi que la mise en place du système de l’identification.
+    <ul>
 <strong> Ps : </strong>  Ouail étant tombé malade, il n’a pas pu contribuer au code donc Benjamin a implémenté la quasi-totalité du code durant ces deux semaines.
 </li>
+</ul>
   <li><strong>Yanis KOLLI </strong> dans le rôle du <strong>Responsable de Groupe</strong> pour la mise en place du plan de travail, la répartition des tâches, l’écriture de ce rapport ainsi que la présentation oral du projet.</li>
 </ul>
