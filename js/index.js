@@ -373,7 +373,9 @@ function deplacement1et2(x, y) {
     for (let j = -1; j < 2; j++) {
       if (board[x + 1 * j] !== undefined && board[x + 1 * j][y + 1 * a] !== undefined && board[x + 1 * j][y + 1 * a] !== 'x' && board[x + 1 * j][y + 1 * a].color !== color) {
         deplacement1.push([x + 1 * j, y + 1 * a, 0])  //Mange
-      }
+      } else if (board[x + 1 * j] !== undefined && board[x + 1 * j][y] !== 'x' && board[x + 1 * j][y].jump == 'jumping') {
+        deplacement1.push([x + 1 * j, y + 1 * a, 1])                         //Prise en passant
+      };
       j++
     }
   };
@@ -587,7 +589,9 @@ function deplacement3(deplacement1) {
             for (let j = -1; j < 2; j++) {
               if (boardT[x + 1 * j] !== undefined && boardT[x + 1 * j][y + 1 * a] !== undefined && boardT[x + 1 * j][y + 1 * a] !== 'x' && boardT[x + 1 * j][y + 1 * a].color !== color) {
                 deplacement1T.push([x + 1 * j, y + 1 * a, 0]) //Mange
-              }
+              } else if (boardT[x + 1 * j] !== undefined && boardT[x + 1 * j][y] !== 'x' && boardT[x + 1 * j][y].jump == 'jumping') {
+                deplacement1T.push([x + 1 * j, y + 1 * a, 1])                         //Prise en passant
+              };
               j++
             }
           };
@@ -786,9 +790,19 @@ function update(finalMoveInput) {
     board[0].splice(y, 1, 'x'); // Z grand roque suppr tour
   }
 
+  board.forEach(row => {
+    row.forEach(slab => {
+      if (slab.type == 'pawn' && slab.jump == 'jumping') { // update jump de jumping en jumped
+        slab.jump = 'jumped'
+      }
+    })
+  })
+
   if (board[x2][y2].type == 'rook' || board[x2][y2].type == 'king') { // mise à jour de la propriété roque
     board[x2][y2].alreadyMoved = true;
   } else if (board[x2][y2].type == 'pawn' && jumpingPawn(y, y2) == true) { // mise à jour de jump de never à jumped
+    board[x2][y2].jump = 'jumping';
+  } else if (board[x2][y2].type == 'pawn' && board[x2][y2].jump == 'jumping') { // update jump de jumping en jumped
     board[x2][y2].jump = 'jumped';
   }
 
