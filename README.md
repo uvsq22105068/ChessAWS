@@ -88,7 +88,7 @@ Semaine 3
 La distribution des rôles pour cette semaine a été la suivante : 
 + **Théo BRUANT** et **Yanis KOLLI** en tant que codeurs.
 + **Benjamin ESTEVAN** en tant que chercheur. 
-+ **Ouail Akrouf** dans le rôle de responsable du groupe.
++ **Ouail AKROUF** dans le rôle de responsable du groupe.
 
 Pour cette semaine nous avions pour objectif de réctifier l'implémentation de notre système de login qui était réalisé en PHP et le refaire en nodejs cette fois ci, ainsi que de mettre en place un système qui empechait les joueurs de tricher. 
 **(Nos deux codeurs ont malencontreusement eu des problèmes et des empechements ces dernières semaines ce qui nous a frêné dans notre élan)**
