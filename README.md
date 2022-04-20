@@ -83,7 +83,8 @@ Le Roque est toutefois impossible si :
 L’utilisateur peut se connecter ou s’inscrire sur notre site en cliquant sur le bouton « Connexion ». Il sera redirigé, ainsi, vers une page de connexion ou il pourra rentrer son identifiant ainsi qu’un mot de passe. Ces derniers seront stockés dans une base de données sur php avec un système de tokens qui dure 2 jours. Il n’est pas possible d’avoir 2 identifiants similaires.</li>
 </ul>
 
-####**Semaine 3** 
+Semaine 3
+---------
 La distribution des rôles pour cette semaine a été la suivante : 
 + **Théo BRUANT** et **Yanis KOLLI** en tant que codeurs.
 + **Benjamin ESTEVAN** en tant que chercheur. 
