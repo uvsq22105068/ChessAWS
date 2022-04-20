@@ -93,7 +93,7 @@ La distribution des rôles pour cette semaine a été la suivante :
 Pour cette semaine nous avions pour objectif de réctifier l'implémentation de notre système de login qui était réalisé en PHP et le refaire en nodejs cette fois ci, ainsi que de mettre en place un système qui empechait les joueurs de tricher. 
 **(Nos deux codeurs ont malencontreusement eu des problèmes et des empechements ces dernières semaines ce qui nous a frêné dans notre élan)**
 
-De ce qui est de la recherche **Benjamin ESTEVAN** nous a trouvé quelques host pour héberger notre jeu en ligne. Nous hésitons entre utiliser [Heroku](https://www.heroku.com/) et [Qovery](https://www.qovery.com/). De plus il a aussi fait des recherches sur le classement Elo que nous pourrons implementer après avoir reglé les objectifs tracés pour cette semaines mais qui n'ont malheureusement pas pu aboutir.
+De ce qui est de la recherche **Benjamin ESTEVAN** nous a trouvé quelques host pour héberger notre jeu en ligne. Nous hésitons entre utiliser [Heroku](https://www.heroku.com/) et [Qovery](https://www.qovery.com/), deux outils complètement gratuits qui vont nous permettre de deployé notre application web en ligne. De plus il a aussi fait des recherches sur le classement Elo que nous pourrons implementer après avoir reglé les objectifs tracés pour cette semaines mais qui n'ont malheureusement pas pu aboutir.
 
 
 
