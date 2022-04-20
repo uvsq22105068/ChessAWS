@@ -82,5 +82,17 @@ Le Roque est toutefois impossible si :
 <li><strong>Système d’identification :</strong>
 L’utilisateur peut se connecter ou s’inscrire sur notre site en cliquant sur le bouton « Connexion ». Il sera redirigé, ainsi, vers une page de connexion ou il pourra rentrer son identifiant ainsi qu’un mot de passe. Ces derniers seront stockés dans une base de données sur php avec un système de tokens qui dure 2 jours. Il n’est pas possible d’avoir 2 identifiants similaires.</li>
 </ul>
-	
+
+####**Semaine 3** 
+La distribution des rôles pour cette semaine a été la suivante : 
++ **Théo BRUANT** et **Yanis KOLLI** en tant que codeurs.
++ **Benjamin ESTEVAN** en tant que chercheur. 
++ **Ouail Akrouf** dans le rôle de responsable du groupe.
+
+Pour cette semaine nous avions pour objectif de réctifier l'implémentation de notre système de login qui était réalisé en PHP et le refaire en nodejs cette fois ci, ainsi que de mettre en place un système qui empechait les joueurs de tricher. 
+**(Nos deux codeurs ont malencontreusement eu des problèmes et des empechements ces dernières semaines ce qui nous a frêné dans notre élan)**
+
+De ce qui est de la recherche **Benjamin ESTEVAN** nous a trouvé quelques host pour héberger notre jeu en ligne. Nous hésitons entre utiliser [Heroku](https://www.heroku.com/) et [Qovery](https://www.qovery.com/). De plus il a aussi fait des recherches sur le classement Elo que nous pourrons implementer après avoir reglé les objectifs tracés pour cette semaines mais qui n'ont malheureusement pas pu aboutir.
+
+
 
